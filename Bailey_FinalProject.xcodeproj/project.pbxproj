@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF09C53119564561001FE5D5 /* ConcertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09C53019564561001FE5D5 /* ConcertCell.m */; };
+		BF09C53319564CCB001FE5D5 /* ConcertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF09C53219564CCB001FE5D5 /* ConcertCell.xib */; };
+		BF09C536195746B4001FE5D5 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09C535195746B4001FE5D5 /* Restaurant.m */; };
+		BF09C539195746DD001FE5D5 /* Concert.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09C538195746DD001FE5D5 /* Concert.m */; };
+		BF09C54219586943001FE5D5 /* ConcertCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09C54019586943001FE5D5 /* ConcertCallout.m */; };
+		BF09C54319586943001FE5D5 /* ConcertCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF09C54119586943001FE5D5 /* ConcertCallout.xib */; };
+		BF15FB65195DA767008A1631 /* RestaurantCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15FB63195DA767008A1631 /* RestaurantCallout.m */; };
+		BF15FB66195DA767008A1631 /* RestaurantCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF15FB64195DA767008A1631 /* RestaurantCallout.xib */; };
 		BFA646B119563699002EFDDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA646B019563699002EFDDF /* UIKit.framework */; };
 		BFA646B319563699002EFDDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA646B219563699002EFDDF /* Foundation.framework */; };
 		BFA646B519563699002EFDDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA646B419563699002EFDDF /* CoreGraphics.framework */; };
@@ -18,9 +26,26 @@
 		BFA646C71956369A002EFDDF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA646C61956369A002EFDDF /* Default-568h@2x.png */; };
 		BFA646CA1956369A002EFDDF /* FinalProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA646C91956369A002EFDDF /* FinalProjectViewController.m */; };
 		BFA646CD1956369A002EFDDF /* FinalProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA646CB1956369A002EFDDF /* FinalProjectViewController.xib */; };
+		BFA646D4195637D6002EFDDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA646D3195637D6002EFDDF /* CoreLocation.framework */; };
+		BFA646D6195637DD002EFDDF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA646D5195637DD002EFDDF /* MapKit.framework */; };
+		BFA646DD19563913002EFDDF /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA646DB19563913002EFDDF /* restaurant.png */; };
+		BFA646DE19563913002EFDDF /* club.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA646DC19563913002EFDDF /* club.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF09C52F19564561001FE5D5 /* ConcertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcertCell.h; sourceTree = "<group>"; };
+		BF09C53019564561001FE5D5 /* ConcertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcertCell.m; sourceTree = "<group>"; };
+		BF09C53219564CCB001FE5D5 /* ConcertCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConcertCell.xib; sourceTree = "<group>"; };
+		BF09C534195746B4001FE5D5 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		BF09C535195746B4001FE5D5 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		BF09C537195746DD001FE5D5 /* Concert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concert.h; sourceTree = "<group>"; };
+		BF09C538195746DD001FE5D5 /* Concert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concert.m; sourceTree = "<group>"; };
+		BF09C53F19586943001FE5D5 /* ConcertCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcertCallout.h; sourceTree = "<group>"; };
+		BF09C54019586943001FE5D5 /* ConcertCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcertCallout.m; sourceTree = "<group>"; };
+		BF09C54119586943001FE5D5 /* ConcertCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConcertCallout.xib; sourceTree = "<group>"; };
+		BF15FB62195DA767008A1631 /* RestaurantCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCallout.h; sourceTree = "<group>"; };
+		BF15FB63195DA767008A1631 /* RestaurantCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCallout.m; sourceTree = "<group>"; };
+		BF15FB64195DA767008A1631 /* RestaurantCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCallout.xib; sourceTree = "<group>"; };
 		BFA646AD19563699002EFDDF /* Bailey_FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bailey_FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA646B019563699002EFDDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFA646B219563699002EFDDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +62,10 @@
 		BFA646C81956369A002EFDDF /* FinalProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalProjectViewController.h; sourceTree = "<group>"; };
 		BFA646C91956369A002EFDDF /* FinalProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalProjectViewController.m; sourceTree = "<group>"; };
 		BFA646CC1956369A002EFDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FinalProjectViewController.xib; sourceTree = "<group>"; };
+		BFA646D3195637D6002EFDDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFA646D5195637DD002EFDDF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BFA646DB19563913002EFDDF /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
+		BFA646DC19563913002EFDDF /* club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = club.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA646D6195637DD002EFDDF /* MapKit.framework in Frameworks */,
+				BFA646D4195637D6002EFDDF /* CoreLocation.framework in Frameworks */,
 				BFA646B119563699002EFDDF /* UIKit.framework in Frameworks */,
 				BFA646B319563699002EFDDF /* Foundation.framework in Frameworks */,
 				BFA646B519563699002EFDDF /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +87,10 @@
 		BFA646A419563699002EFDDF = {
 			isa = PBXGroup;
 			children = (
+				BFA646DA195638ED002EFDDF /* Images */,
+				BFA646D919563882002EFDDF /* CustomCells */,
+				BFA646D819563870002EFDDF /* Models */,
+				BFA646D71956385E002EFDDF /* Callouts */,
 				BFA646B619563699002EFDDF /* Bailey_FinalProject */,
 				BFA646AF19563699002EFDDF /* Frameworks */,
 				BFA646AE19563699002EFDDF /* Products */,
@@ -73,6 +108,8 @@
 		BFA646AF19563699002EFDDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFA646D5195637DD002EFDDF /* MapKit.framework */,
+				BFA646D3195637D6002EFDDF /* CoreLocation.framework */,
 				BFA646B019563699002EFDDF /* UIKit.framework */,
 				BFA646B219563699002EFDDF /* Foundation.framework */,
 				BFA646B419563699002EFDDF /* CoreGraphics.framework */,
@@ -105,6 +142,49 @@
 				BFA646C61956369A002EFDDF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA646D71956385E002EFDDF /* Callouts */ = {
+			isa = PBXGroup;
+			children = (
+				BF09C53F19586943001FE5D5 /* ConcertCallout.h */,
+				BF09C54019586943001FE5D5 /* ConcertCallout.m */,
+				BF09C54119586943001FE5D5 /* ConcertCallout.xib */,
+				BF15FB62195DA767008A1631 /* RestaurantCallout.h */,
+				BF15FB63195DA767008A1631 /* RestaurantCallout.m */,
+				BF15FB64195DA767008A1631 /* RestaurantCallout.xib */,
+			);
+			name = Callouts;
+			sourceTree = "<group>";
+		};
+		BFA646D819563870002EFDDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF09C534195746B4001FE5D5 /* Restaurant.h */,
+				BF09C535195746B4001FE5D5 /* Restaurant.m */,
+				BF09C537195746DD001FE5D5 /* Concert.h */,
+				BF09C538195746DD001FE5D5 /* Concert.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BFA646D919563882002EFDDF /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BF09C52F19564561001FE5D5 /* ConcertCell.h */,
+				BF09C53019564561001FE5D5 /* ConcertCell.m */,
+				BF09C53219564CCB001FE5D5 /* ConcertCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		BFA646DA195638ED002EFDDF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BFA646DB19563913002EFDDF /* restaurant.png */,
+				BFA646DC19563913002EFDDF /* club.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +244,11 @@
 				BFA646C51956369A002EFDDF /* Default@2x.png in Resources */,
 				BFA646C71956369A002EFDDF /* Default-568h@2x.png in Resources */,
 				BFA646CD1956369A002EFDDF /* FinalProjectViewController.xib in Resources */,
+				BFA646DD19563913002EFDDF /* restaurant.png in Resources */,
+				BFA646DE19563913002EFDDF /* club.png in Resources */,
+				BF09C53319564CCB001FE5D5 /* ConcertCell.xib in Resources */,
+				BF09C54319586943001FE5D5 /* ConcertCallout.xib in Resources */,
+				BF15FB66195DA767008A1631 /* RestaurantCallout.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +262,11 @@
 				BFA646BD19563699002EFDDF /* main.m in Sources */,
 				BFA646C11956369A002EFDDF /* FinalProjectAppDelegate.m in Sources */,
 				BFA646CA1956369A002EFDDF /* FinalProjectViewController.m in Sources */,
+				BF09C53119564561001FE5D5 /* ConcertCell.m in Sources */,
+				BF09C536195746B4001FE5D5 /* Restaurant.m in Sources */,
+				BF09C539195746DD001FE5D5 /* Concert.m in Sources */,
+				BF09C54219586943001FE5D5 /* ConcertCallout.m in Sources */,
+				BF15FB65195DA767008A1631 /* RestaurantCallout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +391,7 @@
 				BFA646D21956369A002EFDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

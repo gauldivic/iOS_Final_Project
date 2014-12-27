@@ -17,7 +17,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[FinalProjectViewController alloc] initWithNibName:@"FinalProjectViewController" bundle:nil];
+     UIColor * color = [UIColor colorWithRed:167/255.0f green:163/255.0f blue:126/255.0f alpha:1.0f];
+   
     self.window.rootViewController = self.viewController;
+     self.window.backgroundColor = color;
     [self.window makeKeyAndVisible];
     return YES;
 }
