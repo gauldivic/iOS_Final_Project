@@ -15,6 +15,7 @@
 +(id)Restaurant
 {
     Restaurant *restaurant = [[self alloc] init];
+    //something
     return restaurant;
 }
 
